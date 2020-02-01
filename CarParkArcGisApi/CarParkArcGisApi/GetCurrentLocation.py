@@ -1,5 +1,4 @@
 
-
 import requests
 
 ip_request = requests.get('https://get.geojs.io/v1/ip.json')
