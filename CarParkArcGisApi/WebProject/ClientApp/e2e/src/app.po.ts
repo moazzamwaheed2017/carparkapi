@@ -1,11 +1,13 @@
-import { browser, by, element } from 'protractor';
+import { browser, by, element } from "protractor";
 
 export class AppPage {
   navigateTo() {
-    return browser.get('/');
+    return browser.get(browser.baseUrl) as Promise<any>;
   }
 
-  getMainHeading() {
-    return element(by.css('app-root h1')).getText();
+  getApiUrl() {
+    return element(by.className("api-url")).getAttribute("href") as Promise<
+      string
+    >;
   }
 }
