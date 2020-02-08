@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
@@ -24,7 +24,63 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\src\app\models\checkparkingspace.model.ts" />
+    <None Remove="ClientApp\src\app\models\confirmbooking.model.ts" />
+    <None Remove="ClientApp\src\app\models\esrimap.model.ts" />
+    <None Remove="ClientApp\src\app\models\findbyparking.model.ts" />
+    <None Remove="ClientApp\src\app\models\findroute.model.ts" />
+    <None Remove="ClientApp\src\app\models\getbookingtime.model.ts" />
+    <None Remove="ClientApp\src\app\models\getcurrentlocation.model.ts" />
+    <None Remove="ClientApp\src\app\models\getexpirytime.model.ts" />
+    <None Remove="ClientApp\src\app\models\getparking.model.ts" />
+    <None Remove="ClientApp\src\app\models\getparkingslots.model.ts" />
+    <None Remove="ClientApp\src\app\models\paymentoptions.model.ts" />
+    <None Remove="ClientApp\src\app\models\releaseparkingslots.model.ts" />
+    <None Remove="ClientApp\src\app\models\saveparkingbooking.model.ts" />
+    <None Remove="ClientApp\src\app\services\checkparkingspace.service.ts" />
+    <None Remove="ClientApp\src\app\services\confirmbooking.service.ts" />
+    <None Remove="ClientApp\src\app\services\findbyparking.service.ts" />
+    <None Remove="ClientApp\src\app\services\findroute.service.ts" />
+    <None Remove="ClientApp\src\app\services\getbookingtime.service.ts" />
+    <None Remove="ClientApp\src\app\services\getcurrentlocation.service.ts" />
+    <None Remove="ClientApp\src\app\services\getexpirytime.service.ts" />
+    <None Remove="ClientApp\src\app\services\getparking.service.ts" />
+    <None Remove="ClientApp\src\app\services\getparkingslots.service.ts" />
+    <None Remove="ClientApp\src\app\services\paymentoptions.service.ts" />
+    <None Remove="ClientApp\src\app\services\releaseparkingslots.service.ts" />
+    <None Remove="ClientApp\src\app\services\saveparkingbooking.service.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\src\app\models\checkparkingspace.model.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\models\confirmbooking.model.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\models\esrimap.model.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\models\findbyparking.model.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\models\findroute.model.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\models\getbookingtime.model.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\models\getcurrentlocation.model.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\models\getexpirytime.model.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\models\getparking.model.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\models\getparkingslots.model.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\models\paymentoptions.model.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\models\releaseparkingslots.model.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\models\saveparkingbooking.model.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\services\checkparkingspace.service.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\services\confirmbooking.service.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\services\findbyparking.service.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\services\findroute.service.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\services\getbookingtime.service.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\services\getcurrentlocation.service.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\services\getexpirytime.service.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\services\getparking.service.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\services\getparkingslots.service.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\services\paymentoptions.service.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\services\releaseparkingslots.service.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\services\saveparkingbooking.service.ts" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

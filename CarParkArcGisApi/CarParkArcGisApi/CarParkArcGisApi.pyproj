@@ -6,7 +6,7 @@
     <ProjectGuid>af441b5e-47e6-4c1b-a90a-f7c4b23a6991</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <ProjectTypeGuids>{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
-    <StartupFile>FindRoute.py</StartupFile>
+    <StartupFile>FindRouteApi.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -38,40 +38,40 @@
     </Interpreter>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CheckParkingSpace.py">
+    <Compile Include="CheckParkingSpaceApi.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ConfirmBooking.py">
+    <Compile Include="ConfirmBookingApi.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="FindByParkingApi.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="FindRoute.py">
+    <Compile Include="FindRouteApi.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GetBookingTime.py">
+    <Compile Include="GetBookingTimeApi.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GetCurrentLocation.py">
+    <Compile Include="GetCurrentLocationApi.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GetExpiryTime.py">
+    <Compile Include="GetExpiryTimeApi.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GetParking.py">
+    <Compile Include="GetParkingApi.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GetParkingSlots.py">
+    <Compile Include="GetParkingSlotsApi.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="PaymentOptions.py">
+    <Compile Include="PaymentOptionsApi.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ReleaseParkingSlots.py">
+    <Compile Include="ReleaseParkingSlotsApi.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="SaveParkingBooking.py">
+    <Compile Include="SaveParkingBookingApi.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
