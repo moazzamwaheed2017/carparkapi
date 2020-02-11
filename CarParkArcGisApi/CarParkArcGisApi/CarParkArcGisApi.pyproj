@@ -65,6 +65,9 @@
     <Compile Include="GetParkingSlotsApi.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="GetTimeAndDistance.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PaymentOptionsApi.py">
       <SubType>Code</SubType>
     </Compile>
