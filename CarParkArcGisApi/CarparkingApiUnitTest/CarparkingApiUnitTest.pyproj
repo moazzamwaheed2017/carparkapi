@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>03e3c0b6-793e-48fb-91bd-4d8823bae07a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>CarparkingApiUnitTest.py</StartupFile>
+    <StartupFile>FindRouteApiTest.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
