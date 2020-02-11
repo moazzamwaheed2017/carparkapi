@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
@@ -26,7 +26,6 @@
   <ItemGroup>
     <None Remove="ClientApp\src\app\models\checkparkingspace.model.ts" />
     <None Remove="ClientApp\src\app\models\confirmbooking.model.ts" />
-    <None Remove="ClientApp\src\app\models\esrimap.model.ts" />
     <None Remove="ClientApp\src\app\models\findbyparking.model.ts" />
     <None Remove="ClientApp\src\app\models\findroute.model.ts" />
     <None Remove="ClientApp\src\app\models\getbookingtime.model.ts" />
@@ -58,7 +57,6 @@
   <ItemGroup>
     <TypeScriptCompile Include="ClientApp\src\app\models\checkparkingspace.model.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\models\confirmbooking.model.ts" />
-    <TypeScriptCompile Include="ClientApp\src\app\models\esrimap.model.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\models\findbyparking.model.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\models\findroute.model.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\models\getbookingtime.model.ts" />
