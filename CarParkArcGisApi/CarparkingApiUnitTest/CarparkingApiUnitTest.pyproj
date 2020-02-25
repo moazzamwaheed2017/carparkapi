@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>03e3c0b6-793e-48fb-91bd-4d8823bae07a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>FindRouteApiTest.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,9 +23,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="CarparkingApiUnitTest.py" />
-    <Compile Include="FindRouteApiTest.py">
-      <SubType>Code</SubType>
-    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CarParkArcGisApi\CarParkArcGisApi.pyproj">
+      <Name>CarParkArcGisApi</Name>
+      <Project>{af441b5e-47e6-4c1b-a90a-f7c4b23a6991}</Project>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
